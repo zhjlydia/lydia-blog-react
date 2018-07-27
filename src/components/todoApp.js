@@ -1,7 +1,7 @@
 import React from "react";
 import List from "./list";
 import Input from "./input";
-import api from "../api/index.js";
+import {articleApi} from "../api/index.js";
 
 class TodoApp extends React.Component {
     componentWillMount() {
@@ -20,7 +20,7 @@ class TodoApp extends React.Component {
             ],
             newTodo: 'test'
         });
-        api.getFrontArticleList().then((res)=>{
+        articleApi.getFrontArticleList().then((res)=>{
             console.log(res);
         })
     };

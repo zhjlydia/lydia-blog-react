@@ -16,7 +16,7 @@ axios.interceptors.response.use(function (response) {
     return Promise.reject(error);
 });
 
-export default {
+const articleApi={
     getFrontArticleList(data){
         var param={
             pageIndex:1,
@@ -25,6 +25,8 @@ export default {
         return axios.get("/Article/getFrontArticleList",{params:param})
     }
 }
+
+export {articleApi}
 
 
 
