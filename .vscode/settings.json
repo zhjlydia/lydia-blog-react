@@ -1,0 +1,19 @@
+{
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "files.encoding": "utf8",
+  "editor.tabCompletion": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "editor.formatOnType": false,
+  "prettier.semi": false,
+  "prettier.printWidth": 120,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "git.ignoreLimitWarning": true,
+  "tslint.autoFixOnSave": true,
+  "files.autoGuessEncoding": false
+}
